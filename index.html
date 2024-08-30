@@ -3,39 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>menwithcameras</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>SoundCloud Embeds</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #1e1e1e; /* Dark background color */
+            color: #e0e0e0; /* Light text color */
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #ffffff; /* White text for the heading */
+        }
+        .embed-container {
+            margin: 20px;
+            width: 100%;
+            max-width: 600px;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 166px;
+            background-color: #2c2c2c; /* Dark background for iframe */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>menwithcameras</h1>
-    </header>
-<br>
-    <section>
-        <p><iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1905852485&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hardrockgang" title="HARDROCKGANG" target="_blank" style="color: #cccccc; text-decoration: none;">HARDROCKGANG</a> · <a href="https://soundcloud.com/hardrockgang/austins-not-austin-auzzy-diss" title="AUSTINS NOT AUSTIN - AUZZY DISS" target="_blank" style="color: #cccccc; text-decoration: none;">AUSTINS NOT AUSTIN - AUZZY DISS</a></div></p>
-            <div class="snowflakes" aria-hidden="true">
-                <div class="snowflake">❅</div>
-                <div class="snowflake">❆</div>
-                <div class="snowflake">❅</div>
-                <div class="snowflake">❆</div>
-                <div class="snowflake">❅</div>
-                <div class="snowflake">❆</div>
-                <div class="snowflake">❅</div>
-                <div class="snowflake">❆</div>
-                <div class="snowflake">❅</div>
-                <div class="snowflake">❆</div>
-                <div class="snowflake">❅</div>
-                <div class="snowflake">❆</div>
-                <div class="snowflake">❅</div>
-                <div class="snowflake">❆</div>
-                <div class="snowflake">❅</div>
-                <div class="snowflake">❆</div>
-                <div class="snowflake">❅</div>
-                <div class="snowflake">❆</div>
-                <div class="snowflake">❅</div>
-            </div>
-            <script src="script2.js"></script>
-    </section>
+    <h1>menwithcameras</h1>
+
+    <!-- Embed your SoundCloud track here -->
+    <div class="embed-container">
+        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1905852485&color=%23ff5500" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <!-- Another SoundCloud embed example -->
+    <div class="embed-container">
+        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1906608008&color=%23ff5500" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <!-- Another SoundCloud embed example -->
+    <div class="embed-container">
+        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1906661669&color=%23ff5500" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 
 </body>
 </html>
